@@ -1,0 +1,71 @@
+body {
+    background: rgb(57,55,88);
+    background: linear-gradient(110deg, rgba(57,55,88,1) 21%, rgba(0,0,0,1) 47%, rgba(167,107,47,1) 76%);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0px;
+}
+header {
+    background-image: url("banner tutorial.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 280px;
+}
+nav {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    color: white;
+    font-size: 150%;
+    position: relative;
+    top: 0px;
+    padding: 10px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+section {
+    background: rgb(57,55,88);
+    background: linear-gradient(110deg, rgba(57,55,88,1) 0%, rgba(0,0,0,1) 43%, rgba(167,107,47,1) 100%);
+    color: White;
+    height: 1000px;
+    width: 65%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+}
+.left {
+    float: left;
+    height: 800px;
+    background: rgb(57,55,88);
+    background: linear-gradient(214deg, rgba(57,55,88,1) 0%, rgba(0,0,0,1) 100%, rgba(167,107,47,1) 100%);
+}
+.right {
+    float: right;
+    height: 550px;
+    background: rgb(57,55,88);
+    background: linear-gradient(45deg, rgba(57,55,88,1) 0%, rgba(0,0,0,1) 0%, rgba(167,107,47,1) 100%);
+}
+aside {
+    color: white;
+    width: 15%;
+    margin: 10px;
+}
+footer {
+    background-color: black;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+footer p {
+    text-align: right;
+}

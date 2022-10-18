@@ -1,0 +1,50 @@
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    margin: 0%;
+    padding: 0px;
+}
+header{
+    background: rgb(8, 8, 8);
+    margin: 0;
+    text-align: center;
+}
+section {
+    background:rgb(70, 70, 70);
+    color: rgb(112, 72, 72);
+    float: left;
+    width: 30%;
+    height: 750px;
+}
+aside {
+    float: right;
+    width: 70%;
+    background-color: #ffffff;
+    height: 750px;
+}
+footer{
+    background: black;
+    padding: 10px 20px;
+    margin: 0%;
+    color: black;
+}
+
+button {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    display: block;
+    margin: 20px;
+    border: 2px solid #4CAF50;
+}
+
+a {
+    color: rgba(167, 69, 69, 0.808);
+    text-decoration: none;
+}
+aside img {
+    display: block;
+    margin: 0;
+    text-align: center;
+    width: 1100px;
+    height: 600px;
+}
